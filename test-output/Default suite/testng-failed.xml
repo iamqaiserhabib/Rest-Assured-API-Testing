@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RestAssuredAPI.RestAssuredAPI.Cookies">
+      <class name="APIChaining.GetUser">
         <methods>
-          <include name="getCookiesInfo"/>
-          <include name="testCookies"/>
+          <include name="getUsers"/>
         </methods>
-      </class> <!-- RestAssuredAPI.RestAssuredAPI.Cookies -->
+      </class> <!-- APIChaining.GetUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
